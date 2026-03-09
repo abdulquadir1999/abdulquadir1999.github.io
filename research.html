@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdul Quadir | Research</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button class="mobile-toggle">☰</button>
+<div class="site-wrapper">
+  <div id="sidebar-placeholder"></div>
+  <main class="main-content">
+<!-- ════════ RESEARCH ════════ -->
+    <section class="page-section" id="research">
+      <h1 class="section-title">Research</h1>
+
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: #1a5276; margin-bottom: 1rem; font-weight: 600;">Research Overview</h2>
+      
+      <div class="research-card" style="display: block;">
+      <p contenteditable="false" style="display: block; width: 100%; word-wrap: break-word; white-space: normal; text-align: justify; column-count: unset; columns: unset;">
+        My research program investigates the fundamental tension between architectural complexity and algorithmic robustness. I focus on developing machine learning frameworks that maintain theoretical integrity when exposed to the stochastic nature of real-world data, specifically noise, class imbalance, and structural uncertainty. My work follows a systematic trajectory: from optimizing the geometry of decision boundaries to re-engineering the fundamental units of learning, and finally, to designing ultra-scalable architectures for high-stakes clinical intelligence.
+      </p>
+    </div>
+
+      <div class="research-card">
+        <div class="research-icon">🔬</div>
+        <div>
+          <h3>From Boundaries to Regions: Hyperplane & Granular Computing</h3>
+          <p contenteditable="false">The search for robust decision boundaries begins with hyperplane-based learning. While traditional models provide a strong mathematical foundation, they often struggle with local perturbations and label noise. To address this, I developed the Intuitionistic Fuzzy Generalized Eigenvalue Proximal Support Vector Machine (IF-GEPSVM and IF-IGEPSVM) and the Radius-Adaptive LSSVM (RAPID-LSSVM), which utilize non-parallel surfaces and robust loss functions to establish more resilient separators.</p>
+          <p contenteditable="false"> However, the inherent sensitivity of point-wise learning remains a bottleneck. This necessitated a shift from learning on individual samples to learning on geometric abstractions. By utilizing granular balls as the primary unit of computation, I developed the GBTSVM, LS-GBTSVM, and EF-GBTSVM architectures. These models neutralize outliers at the input level, a paradigm that I further deployed for uncertainty quantification in regression through the GBTSVR and the GB-TSVQR frameworks. </p>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="research-icon">📊</div>
+        <div>
+          <h3>Overcoming Optimization Bottlenecks: Randomized Neural Architectures</h3>
+          <p contenteditable="false">While granular regions improve robustness, the iterative optimization required by support vector methods can be computationally prohibitive for large-scale data. To achieve global optimality without the burden of backpropagation, I utilize randomized neural networks and broad learning systems. In this domain, I developed the Wave-RVFL and XG-RVFL frameworks, which utilize bounded, asymmetric loss functions to manage deviations adaptively.</p>
+          <p contenteditable="false">To expand the representational capacity of these efficient models, I moved beyond standard Euclidean vectors to introduce the complex-valued RVFL-X, the matrix-based RMFL, and the GARFLN for manifold-valued data. These innovations, alongside the BLS-CIL, BLS-CIL-TRIM, and EDA-OCBLS, ensure that rapid-learning frameworks remain stable even under severe class imbalance and distributional shifts.  </p>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="research-icon">🔗</div>
+        <div>
+          <h3>Fusing Perspectives: Multi-View & Kernel Synergy</h3>
+          <p contenteditable="false">Efficiency and robustness are only half the challenge; real-world data is often multi-modal and heterogeneous. This led to the development of principled multi-view learning frameworks that enforce consensus and complementarity across different perspectives. Architectures like Wave-MvSVM, MvRVFL, GrMv-BLS, and CPBS-MvBLS synthesize these diverse data streams into a unified discriminative space.</p>
+          <p contenteditable="false">To map these complex interactions into higher dimensions with mathematical precision, I leverage the Restricted Kernel Machine (RKM) framework. This resulted in the first one-class RKM for anomaly detection (OCRKM) and the Twin RKM for efficient classification (TRKM). By employing the TMvRKM and the randomized R2KM, I provide a scalable path for kernel-based learning that preserves the structural integrity of high-dimensional feature spaces.</p>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="research-icon">🏥</div>
+        <div>
+          <h3>Capturing Topological Complexity: GNNs & Transformers</h3>
+          <p contenteditable="false">Even with advanced kernel mapping, shallow architectures are fundamentally limited in their ability to capture the hierarchical and relational dependencies of modern graph-structured data. My recent work bridges this gap by designing frontier architectures with linear computational complexity. I developed the Hypergraph Neural Network with State Space Models (HGMN), the ensemble-based GCKEBLS, and the ultra-scalable GraphFractalNet to model higher-order topologies.</p>
+          <p contenteditable="false">For visual and sequential modeling, I design architectures that replace rigid grid-based scanning with content-dependent trajectories. Frameworks such as AdaptiVision, the ALC-ViT, and GM-Mamba utilize adaptive token pruning and geometric manifold fusion to achieve state-of-the-art representation learning. The HBxLSTM-ASG architecture further establishes a hierarchical, multi-scale alternative for vision backbones, ensuring that global context is captured without sacrificing local spatial cues.</p>
+        </div>
+      </div>
+
+      <div class="research-card">
+        <div class="research-icon">⚙️</div>
+        <div>
+          <h3>Kernel Methods and Restricted Kernel Machines</h3>
+          <p contenteditable="false">My research advances the dual-space representation of data through the Restricted Kernel Machine (RKM) framework. I introduced the One-Class Restricted Kernel Machine (OCRKM) for anomaly detection and the Twin Restricted Kernel Machine (TRKM) for efficient classification and regression. By utilizing the TMvRKM for multi-view tasks and the randomized R2KM, these architectures leverage conjugate feature duality to map complex data patterns into high-dimensional spaces with optimized computational footprints.</p>
+        </div>
+      </div>
+
+    <div class="research-card">
+        <div class="research-icon">🧠</div>
+        <div>
+          <h3>Clinical Realization: Translating Theory into Diagnostics</h3>
+          <p contenteditable="false">The robustness and structural awareness established in my mathematical frameworks find their most rigorous validation in the precision required for clinical diagnostics. I have architected specialized systems such as the Hierarchical Attention-Guided Multi-Scale Feature Fusion Network (HAMFNet) to address the scale inconsistencies in medical image segmentation and the GraM-Diff framework for capturing the spatial-temporal dynamics of EEG-based Alzheimer’s diagnosis.</p>
+          <p contenteditable="false">These models provide the reliability and interpretability necessitated by high-stakes environments, enabling the early detection of neurodegenerative disorders, schizophrenia classification, and DNA-binding protein prediction. By deploying these architectures across the ADNI and BreakHis datasets, I demonstrate that principled, noise-tolerant AI can effectively navigate the complexities of resource-constrained biomedical settings to support accurate clinical decision-making.</p>
+        </div>
+      </div>
+
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: #1a5276; margin-bottom: 1rem; font-weight: 600;">Future Research Vision</h2>
+      
+      <div class="research-card" style="display: block;">
+      <p contenteditable="false" style="display: block; width: 100%; word-wrap: break-word; white-space: normal; text-align: justify; column-count: unset; columns: unset;">
+        Building on established foundations in robust and scalable modeling, I aim to resolve the fundamental limitations of expressive power and scalability in relational and sequential architectures. My future research focuses on bridging the gap between local inductive biases and global structural dependencies, ensuring that next-generation AI systems are mathematically grounded and clinically reliable.
+      </p>
+      </div>
+
+    <div class="research-card">
+        <div class="research-icon">🕸️</div>
+        <div>
+          <h3>Advancing Relational & Geometric Learning</h3>
+          <p contenteditable="false">In the graph domain, I will focus on developing topology-aware spectral transformers that move beyond the constraints of standard pairwise message-passing. By integrating spectral graph theory with attention mechanisms, I aim to architect frameworks capable of capturing long-range dependencies and hierarchical abstractions in massive, non-Euclidean datasets. Concurrently, I plan to engineer uncertainty-aware graph learning systems that provide calibrated, trustworthy predictions for incomplete or noisy environments, such as biomedical knowledge graphs and molecular interaction networks.</p>
+        </div>
+      </div>
+
+    <div class="research-card">
+        <div class="research-icon">📐</div>
+        <div>
+          <h3>Efficiency & Theoretical Unification</h3>
+          <p contenteditable="false">My vision for sequential and vision-based modeling involves moving toward content-adaptive and geometrically aware transformers. I aim to design architectures that utilize manifold-aware feature interactions and curvature-preserving embeddings to capture the intrinsic geometry of complex biomedical data. These models will leverage linear-complexity attention mechanisms to ensure high expressivity within resource-constrained settings.</p>
+          <p contenteditable="false">The long-term objective is to unify these streams into a hybrid graph-transformer framework, a paradigm that seamlessly integrates relational inductive biases with global context modeling. Grounded in rigorous theoretical analyses of generalization bounds and approximation guarantees, these systems will serve as a principled foundation for autonomous biomedical discovery, clinical reasoning, and trustworthy decision support.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="section-divider"></div>
+  </main>
+</div>
+<script src="sidebar.js"></script>
+</body>
+</html>
