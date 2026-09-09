@@ -3,90 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdul Quadir | Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="description" content="Abdul Quadir — Ph.D. Candidate in Mathematics and researcher in statistical machine learning, optimization, granular computing, and randomized neural networks.">
+<title>Abdul Quadir | Researcher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<button class="mobile-toggle">☰</button>
+<button class="mobile-toggle" aria-label="Open navigation">☰</button>
 <div class="site-wrapper">
   <div id="sidebar-placeholder"></div>
-  <main class="main-content">
-    <h1 class="section-title">Home</h1>
-    <div class="bio-block">
-      <h2 style="font-family:'Playfair Display',serif;font-size:1.3rem;color:#1a5276;margin-bottom:1rem;font-weight:600;">Biography</h2>
-      <p>Abdul Quadir is a Ph.D. candidate in the Department of Mathematics at the Indian Institute of Technology (IIT) Indore, advised by <a href="https://mtanveer.profiles.iiti.ac.in/" target="_blank">Prof. M. Tanveer</a>. His research lies at the intersection of statistical learning theory and deep learning, with a focus on developing robust, theoretically grounded algorithms for complex and uncertain data environments. He earned his M.Sc. in Mathematics from IIT Indore in 2022 and his B.Sc. (Hons.) in Mathematics from Doon University in 2020, graduating with the University Gold Medal as the top-ranking student in his cohort.</p>
-      <p>His foundational research investigates the theoretical and computational foundations of hyperplane-based discriminative learning, with emphasis on formulating mathematically rigorous optimization problems deeply rooted in statistical learning theory. By carefully balancing the principles of empirical risk minimization, regularization theory, and convex optimization, his work establishes a unified mathematical foundation that is both theoretically sound and computationally efficient for real-world supervised learning tasks.</p>
-      <p>Leveraging the granular computing framework, he designed scalable and robust classifiers built upon region-level geometric abstractions, delivering improved noise tolerance, computational efficiency, and generalization performance. His contributions to randomized neural network architectures focus on random vector functional link networks and broad learning systems, where he introduced principled modifications grounded in graph embedding, multi-view fusion, and novel loss functions, addressing fundamental limitations of shallow learning and significantly enhancing robustness, expressiveness, and generalization capability.</p>
-      <p>Taken together, these contributions brought into sharp focus a deep and fundamental limitation of existing learning frameworks, their inability to adequately capture the rich structural dependencies, hierarchical feature interactions, and complex relational geometry that characterize real-world high-dimensional and graph-structured data. This critical observation serves as a strong theoretical motivation, driving the development of mathematically principled and structurally expressive learning frameworks.</p>
-    </div>
-    <div class="affil-block">
-      <h3>Affiliation</h3>
-      <p>Currently pursuing Ph.D. at the <strong>Department of Mathematics, IIT Indore</strong>, as a member of the <a href="https://mtanveer.profiles.iiti.ac.in/" target="_blank">OPTIMAL Research Lab</a> under the supervision of Prof. M. Tanveer.</p>
-    </div>
-    <div class="affil-block">
-      <h3>Research Interests</h3>
-      <div class="interests-grid">
-        <span class="tag">Kernel Methods</span>
-        <span class="tag">Loss Function &amp; Optimization</span>
-        <span class="tag">Randomized Neural Networks</span>
-        <span class="tag">Statistical Machine Learning</span>
-        <span class="tag">Granular Computing</span>
-        <span class="tag">Multi-View Learning</span>
-        <span class="tag">Graph Neural Networks</span>
-        <span class="tag">Trustworthy AI</span>
-        <span class="tag">Biomedical Applications</span>
-        <span class="tag">Support Vector Machines</span>
-      </div>
-    </div>
-    <!-- FOOTER -->
-    <footer class="site-footer" style="margin-top:3rem;">
-      <div>
-        <p style="font-size:0.78rem;font-weight:600;color:#888;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.5rem;">Contact</p>
-        <p style="margin-bottom:0.3rem;"><a href="mailto:mscphd2207141002@iiti.ac.in" style="color:#1a1a1a;text-decoration:none;font-size:0.87rem;">📧 mscphd2207141002@iiti.ac.in</a></p>
-        <p style="margin-bottom:1.2rem;"><a href="mailto:abdulquadir19991@gmail.com" style="color:#1a1a1a;text-decoration:none;font-size:0.87rem;">📧 abdulquadir19991@gmail.com</a></p>
-        <div style="display:flex;gap:0.8rem;">
-          <a href="#" target="_blank" style="width:36px;height:36px;border-radius:50%;background:#333;display:flex;align-items:center;justify-content:center;color:white;text-decoration:none;font-size:0.9rem;">𝕏</a>
-          <a href="https://www.linkedin.com/in/abdul-quadir-0739232a8/" target="_blank" style="width:36px;height:36px;border-radius:50%;background:#333;display:flex;align-items:center;justify-content:center;color:white;text-decoration:none;font-size:0.9rem;">in</a>
-          <a href="#" target="_blank" style="width:36px;height:36px;border-radius:50%;background:#333;display:flex;align-items:center;justify-content:center;color:white;text-decoration:none;font-size:0.9rem;">f</a>
+  <main class="main-content home-main">
+
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">STATISTICAL LEARNING · AI · OPTIMIZATION</p>
+        <h1>Abdul <span>Quadir</span></h1>
+        <p class="hero-role">Ph.D. Candidate in Mathematics · Indian Institute of Technology Indore</p>
+        <p class="hero-text">I develop mathematically principled and robust learning algorithms for complex, uncertain, high-dimensional, and structured data. My work sits at the intersection of statistical learning theory, optimization, granular computing, and neural learning.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="research.html">Explore research <span>↗</span></a>
+          <a class="btn btn-secondary" href="cv.html">View CV</a>
+        </div>
+        <div class="social-row">
+          <a href="https://scholar.google.com/citations?user=jOKByMYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0009-0002-0516-316X" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://github.com/abdulquadir1999" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/abdul-quadir-0739232a8/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
-      <div style="font-size:0.88rem;line-height:1.9;text-align:right;">
-        <p><strong>Postal Address:</strong> Abdul Quadir</p>
-        <p>Ph.D. Candidate</p>
-        <p>OPTIMAL Research Lab, POD 1A - 203</p>
-        <p>Department of Mathematics</p>
-        <p>Indian Institute of Technology Indore</p>
-        <p>Khandwa Road, Simrol, Indore (M.P.) India 453552</p>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img src="Photo.png" alt="Abdul Quadir"></div>
+        <div class="visual-note"><span></span> Building theory-driven AI</div>
       </div>
+    </section>
+
+    <section class="quick-stats" aria-label="Academic highlights">
+      <div><strong>Ph.D.</strong><span>Mathematics</span></div>
+      <div><strong>10+</strong><span>Research publications</span></div>
+      <div><strong>AI / ML</strong><span>Core research focus</span></div>
+      <div><strong>IIT Indore</strong><span>OPTIMAL Research Lab</span></div>
+    </section>
+
+    <section class="content-section" id="about">
+      <div class="section-kicker">01 · ABOUT</div>
+      <div class="section-grid">
+        <div><h2>Research with mathematical foundations.</h2></div>
+        <div class="prose">
+          <p>I am a Ph.D. candidate in the Department of Mathematics at IIT Indore, working under the supervision of <a href="https://mtanveer.profiles.iiti.ac.in/" target="_blank" rel="noopener">Prof. M. Tanveer</a> in the OPTIMAL Research Lab.</p>
+          <p>My research investigates the theoretical and computational foundations of hyperplane-based discriminative learning, with emphasis on empirical risk minimization, regularization, convex optimization, and robust learning.</p>
+          <p>I also work on granular computing and randomized neural networks, developing region-level and structure-aware learning frameworks that improve robustness, scalability, expressiveness, and generalization.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="research">
+      <div class="section-kicker">02 · RESEARCH AREAS</div>
+      <div class="research-grid">
+        <article class="research-tile"><span class="tile-no">01</span><h3>Statistical Learning</h3><p>Support vector machines, kernel methods, margin-based learning, generalization and robust classification.</p></article>
+        <article class="research-tile"><span class="tile-no">02</span><h3>Optimization &amp; Loss</h3><p>Convex formulations, robust loss functions, regularization, scalable optimization and theoretical analysis.</p></article>
+        <article class="research-tile"><span class="tile-no">03</span><h3>Granular Computing</h3><p>Granular-ball learning, region-level geometric abstractions, noise tolerance and efficient classifiers.</p></article>
+        <article class="research-tile"><span class="tile-no">04</span><h3>Randomized Neural Networks</h3><p>RVFL and broad learning systems with graph embedding, multi-view fusion and structured representations.</p></article>
+        <article class="research-tile"><span class="tile-no">05</span><h3>Graph &amp; Multi-View Learning</h3><p>Graph-structured representations, hypergraphs, multi-view synergy and relational feature learning.</p></article>
+        <article class="research-tile"><span class="tile-no">06</span><h3>Trustworthy AI</h3><p>Robustness, uncertainty-aware learning and dependable machine learning for real-world applications.</p></article>
+      </div>
+    </section>
+
+    <section class="content-section feature-section">
+      <div class="section-kicker">03 · SELECTED WORK</div>
+      <div class="feature-card">
+        <div class="feature-label">FEATURED PUBLICATION</div>
+        <h2>Granular Ball Twin Support Vector Machine</h2>
+        <p>A region-level learning framework that replaces individual training samples with granular balls to improve computational efficiency and robustness.</p>
+        <div class="feature-meta">IEEE Transactions on Neural Networks and Learning Systems · 2025</div>
+        <a class="text-link" href="https://doi.org/10.1109/TNNLS.2024.3476391" target="_blank" rel="noopener">Read publication ↗</a>
+      </div>
+      <div class="feature-card feature-card-alt">
+        <div class="feature-label">RECENT DIRECTION</div>
+        <h2>Structure-aware learning for complex data</h2>
+        <p>Current work explores richer geometric and structural representations that can capture hierarchical interactions, heterogeneous modalities, and relational dependencies.</p>
+        <a class="text-link" href="research.html">View research portfolio ↗</a>
+      </div>
+    </section>
+
+    <section class="content-section publication-preview">
+      <div class="section-heading-row"><div><div class="section-kicker">04 · PUBLICATIONS</div><h2>Recent publications</h2></div><a class="text-link" href="publications.html">All publications ↗</a></div>
+      <div class="mini-pub"><span>2026</span><div><h3>TRKM: Twin Restricted Kernel Machines for Classification and Regression</h3><p>Neural Networks</p></div></div>
+      <div class="mini-pub"><span>2026</span><div><h3>GARFLN: Geodesic Adaptive Riemannian Functional Link Network</h3><p>Pattern Recognition</p></div></div>
+      <div class="mini-pub"><span>2025</span><div><h3>Granular Ball Twin Support Vector Machine</h3><p>IEEE Transactions on Neural Networks and Learning Systems</p></div></div>
+    </section>
+
+    <section class="contact-banner">
+      <div><div class="section-kicker">05 · CONTACT</div><h2>Interested in research collaboration?</h2><p>I am always open to discussing research ideas, collaborations, and opportunities in machine learning and mathematical optimization.</p></div>
+      <a class="btn btn-primary" href="mailto:abdulquadir19991@gmail.com">Get in touch ↗</a>
+    </section>
+
+    <footer class="site-footer">
+      <div><strong>Abdul Quadir</strong><p>Ph.D. Candidate · Mathematics · IIT Indore</p></div>
+      <div class="footer-links"><a href="mailto:abdulquadir19991@gmail.com">Email</a><a href="https://github.com/abdulquadir1999" target="_blank" rel="noopener">GitHub</a><a href="https://scholar.google.com/citations?user=jOKByMYAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a></div>
+      <small>© 2026 Abdul Quadir</small>
     </footer>
-
-    <!-- ── FLAG COUNTER ── -->
-    <!-- <div style="
-        background: var(--card-bg);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 1.8rem 2rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    ">
-        <h3 style="
-            font-family: 'Playfair Display', serif;
-            font-size: 1.08rem;
-            color: var(--accent);
-            margin-bottom: 1.2rem;
-        ">Visitors</h3> -->
-
-        <!-- <div style="display:flex; justify-content:center; width:100%;">
-            <a href="https://info.flagcounter.com/j7Dl" target="_blank">
-                <img src="https://s01.flagcounter.com/count2/j7Dl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" 
-                    alt="Flag Counter" 
-                    border="0"
-                    style="border-radius:8px;">
-            </a>
-        </div> -->
-    <!-- </div> -->
-
   </main>
 </div>
 <script src="sidebar.js"></script>
