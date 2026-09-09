@@ -1,1 +1,0 @@
-Website assets live here. Add research diagrams, publication thumbnails, and other media in this folder.
